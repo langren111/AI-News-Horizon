@@ -662,7 +662,7 @@ class HorizonOrchestrator:
         if not items:
             return
 
-self.console.print("📚 Enriching with background knowledge...")
+        self.console.print("📚 Enriching with background knowledge...")
         ai_client = create_ai_client(self.config.ai)
         enricher = ContentEnricher(ai_client)
         await enricher.enrich_batch(items)
