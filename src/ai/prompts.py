@@ -24,10 +24,18 @@ CONTENT_ANALYSIS_SYSTEM = """You are an expert content curator helping filter im
 
 Score content on a 0-10 scale based on importance and relevance:
 
-**9-10: Groundbreaking** - Major breakthroughs, paradigm shifts, or highly significant announcements
-- New major version releases of widely-used technologies
-- Significant research breakthroughs
-- Important industry-changing announcements
+**\U0001f4dd USER'S INTERESTS (prioritize these topics):**
+- AI/ML latest: LLM, Agent, multimodal, open-source model releases, AI coding tools
+- AI industry: company strategies, funding/regulation, startups
+- AI & society: employment impact, ethics, safety, education
+- AI product reviews: Cursor, Manus, Devin, Claude Code etc.
+- Philosophy & growth: thinking models, decision methods, personal branding, writing
+- Tech & humanities: philosophy of tech, ethics, social impact analysis
+
+**9-10: Groundbreaking** - Major breakthroughs or paradigm shifts
+- Major AI model releases / breakthroughs
+- Significant industry-changing announcements
+- Content that can directly become a blog post topic
 
 **7-8: High Value** - Important developments worth immediate attention
 - Interesting technical deep-dives
