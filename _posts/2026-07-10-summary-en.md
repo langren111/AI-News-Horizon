@@ -1,0 +1,619 @@
+---
+layout: default
+title: "Horizon Summary: 2026-07-10 (EN)"
+date: 2026-07-10
+lang: en
+---
+
+> From 284 items, 26 important content pieces were selected
+
+---
+
+1. [OpenAI Releases GPT-5.6 with Three Model Sizes](#item-1) ⭐️ 10.0/10
+2. [Postgres Rewritten in Rust Passes All Regression Tests](#item-2) ⭐️ 9.0/10
+3. [AI IPOs to Surpass 25 Years of VC Exits](#item-3) ⭐️ 9.0/10
+4. [New AI Evaluation Framework Beyond Human Benchmarks](#item-4) ⭐️ 9.0/10
+5. [Survey Maps AI Self-Improvement: Bounded vs. Open-Ended](#item-5) ⭐️ 9.0/10
+6. [AI Industry Restructuring 2026-2030: Memory Scarcity & Open Models](#item-6) ⭐️ 9.0/10
+7. [LLMs Fail to Verify Numeric Validity in Multi-Source Synthesis](#item-7) ⭐️ 9.0/10
+8. [EU Parliament Passes Chat Control 1.0 Despite Majority Opposition](#item-8) ⭐️ 8.0/10
+9. [Ello Builds Real-Time AI Tutor for Young Children](#item-9) ⭐️ 8.0/10
+10. [Meta Releases Muse Spark 1.1 Agentic Coding Model](#item-10) ⭐️ 8.0/10
+11. [AI Agent Startup Lyzr Uses Own Agent to Raise $100M](#item-11) ⭐️ 8.0/10
+12. [AI ROI Debate Returns with $3 Trillion Stakes](#item-12) ⭐️ 8.0/10
+13. [NYT Accuses OpenAI of Hiding Evidence in Copyright Trial](#item-13) ⭐️ 8.0/10
+14. [Ollama raises $65M, reaches nearly 9M users](#item-14) ⭐️ 8.0/10
+15. [AgentLens: Trajectory-Level Evaluation for Coding Agents](#item-15) ⭐️ 8.0/10
+16. [In-Context Search Theory: When Reflection Boosts LLM Reasoning](#item-16) ⭐️ 8.0/10
+17. [Cost-Effective Agent Harnesses for ARC-AGI-1 Reasoning](#item-17) ⭐️ 8.0/10
+18. [Orchestration Design Cuts Token Costs 40% in Enterprise AI](#item-18) ⭐️ 8.0/10
+19. [Tencent Hy3: Compact AI Model Challenges DeepSeek V4 Flash](#item-19) ⭐️ 7.0/10
+20. [Mitchell Hashimoto on Building Ghostty with Zig](#item-20) ⭐️ 7.0/10
+21. [Undergrad First Author Achieves 7.92x Speedup with Parallel Draft Speculative Decoding](#item-21) ⭐️ 7.0/10
+22. [OpenAI Confirms GPT-5.6 as Preferred Model for Microsoft Copilot 365](#item-22) ⭐️ 7.0/10
+23. [OpenAI's No. 2 Executive Fidji Simo Steps Down](#item-23) ⭐️ 7.0/10
+24. [IMGNet: Face Verification via Sign Pattern Matching](#item-24) ⭐️ 7.0/10
+25. [No Leap Second at End of 2026](#item-25) ⭐️ 6.0/10
+26. [Why ML Conferences Outshine Journals](#item-26) ⭐️ 6.0/10
+
+---
+
+<a id="item-1"></a>
+## [OpenAI Releases GPT-5.6 with Three Model Sizes](https://openai.com/index/gpt-5-6/) ⭐️ 10.0/10
+
+OpenAI has released GPT-5.6, its latest frontier model, available in three sizes: Luna, Terra, and Sol. The model achieves state-of-the-art results on the ARC-AGI-3 benchmark, with Sol scoring 7.8%. GPT-5.6 represents a significant leap in AI reasoning and adaptability, being the first frontier model to beat an ARC-AGI-3 game. Its improved intent understanding and image detail preservation enhance practical applications for developers and end users. The model comes in three sizes: Luna (smallest), Terra (medium), and Sol (largest). OpenAI's developer guide highlights improved intent understanding and original image detail preservation, while noting that the model may refuse advanced biology questions in certain benchmarks.
+
+hackernews · logickkk1 · Jul 9, 17:04 · [Discussion](https://news.ycombinator.com/item?id=48849066)
+
+**Background**: Frontier models are the most advanced AI systems available, trained on massive datasets to achieve state-of-the-art performance across many tasks. ARC-AGI-3 is an interactive reasoning benchmark that challenges AI agents to explore novel environments and adapt dynamically, where humans achieve near-perfect scores but previous AI models scored under 1%.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arcprize.org/arc-agi/3">ARC-AGI-3</a></li>
+<li><a href="https://arcprize.org/competitions/2026/arc-agi-3">ARC Prize 2026 - ARC-AGI-3 Competition</a></li>
+<li><a href="https://www.mindstudio.ai/blog/what-is-arc-agi-3-interactive-benchmark">What Is ARC AGI 3? The Interactive AI Benchmark Humans Solve at ...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments show mixed reactions: some users praise the ARC-AGI-3 performance, while others note that GPT-5.6 is similar to GPT-5.5 and behind Sonnet 5 in coding tasks. There is also discussion about the model's refusal to answer advanced biology questions in certain benchmarks.
+
+**Tags**: `#AI/ML`, `#GPT-5.6`, `#OpenAI`, `#model release`, `#benchmarks`
+
+---
+
+<a id="item-2"></a>
+## [Postgres Rewritten in Rust Passes All Regression Tests](https://github.com/malisper/pgrust) ⭐️ 9.0/10
+
+A Rust-based rewrite of PostgreSQL, called pgrust, now passes 100% of the official PostgreSQL regression tests, marking a major milestone for the project built with LLM assistance. This achievement demonstrates the feasibility of rearchitecting a legacy database system using modern languages and AI-assisted development, potentially leading to more performant and safer database infrastructure. The project was developed in less than a month with 7101 commits generated by LLMs, raising questions about code review and long-term maintainability. The author is working on a new version incorporating additional techniques.
+
+hackernews · SweetSoftPillow · Jul 9, 06:18 · [Discussion](https://news.ycombinator.com/item?id=48841676)
+
+**Background**: PostgreSQL is a 30-year-old open-source relational database with a comprehensive regression test suite covering SQL operations and extended features. Rewriting such a complex system in Rust, a language known for memory safety and performance, is a significant engineering challenge. LLM-assisted development uses large language models to generate code, which can accelerate development but introduces concerns about code quality and reproducibility.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.postgresql.org/docs/current/regress.html">Documentation: 18: Chapter 31. Regression Tests - PostgreSQL</a></li>
+<li><a href="https://apiiro.com/glossary/llm-driven-development/">What Is LLM-Driven Development? Best Practices & Risks</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community discussion is mixed: some praise the technical achievement and suggest mirroring production traffic for testing, while others express concerns about single-person projects, LLM-generated code maintainability, and the cost of token usage for contributions. There are also questions about license changes and code review challenges due to the high volume of AI-generated commits.
+
+**Tags**: `#database`, `#rust`, `#postgres`, `#llm-assisted development`, `#open-source`
+
+---
+
+<a id="item-3"></a>
+## [AI IPOs to Surpass 25 Years of VC Exits](https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/) ⭐️ 9.0/10
+
+Anthropic, OpenAI, and SpaceX are projected to generate more value from their upcoming IPOs than all U.S. VC-backed exits combined since 2000. This signals a paradigm shift where AI and space companies dominate value creation, potentially reshaping venture capital and public markets. OpenAI targets a valuation above $1 trillion with a 2026 IPO, while Anthropic recently achieved its first profit. SpaceX remains privately held but is valued over $200 billion.
+
+rss · TechCrunch AI · Jul 9, 14:51
+
+**Background**: VC-backed exits refer to IPOs or acquisitions that return capital to venture capital investors. Since 2000, total U.S. VC exit value has been substantial but fragmented across many companies. The upcoming IPOs of these three firms are expected to eclipse that cumulative figure.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.investopedia.com/terms/v/venture-capital-backed-ipo.asp">Understanding Venture Capital-Backed IPOs: What They Are, How They Work</a></li>
+<li><a href="https://aitoolsrecap.com/Blog/openai-ipo-2026-valuation-timeline-what-investors-need-to-know">OpenAI IPO 2026 — Valuation, Timeline, Revenue, and What Investors Need ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI industry`, `#funding`, `#IPOs`, `#market impact`, `#startups`
+
+---
+
+<a id="item-4"></a>
+## [New AI Evaluation Framework Beyond Human Benchmarks](https://arxiv.org/abs/2607.07040) ⭐️ 9.0/10
+
+A new arXiv paper proposes a relative measurement framework using adversarial psychometric ratings to evaluate AI systems beyond human-level benchmarks. This paradigm shift addresses the critical bottleneck of measuring superhuman intelligence, potentially reshaping how AI progress is assessed and ensuring safety as systems advance. The framework uses model-generated challenges that separate other systems, aggregated into an adversarial psychometric rating system that scales with capabilities and reduces incentives for private-information attacks.
+
+rss · ArXiv CS.AI · Jul 9, 04:00
+
+**Background**: Traditional AI benchmarks are human-authored and saturate as models surpass human performance, making it hard to design harder tasks. Psychometrics is the field of measuring latent constructs like intelligence, and adversarial methods involve generating challenging examples. This work combines these ideas into a relative measurement paradigm that does not rely on absolute human standards.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.m.wikipedia.org/wiki/Psychometrics">Psychometrics - Wikipedia</a></li>
+<li><a href="https://arxiv.org/html/2502.15620">Paradigms of AI Evaluation: Mapping Goals, Methodologies and Culture</a></li>
+<li><a href="https://arxiv.org/pdf/2505.10573v2">Measurement to Meaning: A Validity-Centered Framework for AI Evaluation</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI evaluation`, `#superhuman intelligence`, `#benchmarking`, `#AI safety`, `#measurement theory`
+
+---
+
+<a id="item-5"></a>
+## [Survey Maps AI Self-Improvement: Bounded vs. Open-Ended](https://arxiv.org/abs/2607.07663) ⭐️ 9.0/10
+
+A comprehensive survey of 1,250 arXiv papers (2024-2026) proposes a taxonomy for AI self-improvement along two axes: what is improved and loop closure, distinguishing bounded self-refinement from open-ended recursive self-improvement (RSI). This survey clarifies a conflated field, showing that while bounded self-refinement is already industrial practice, open-ended RSI remains constrained by grounding, collapse dynamics, and compute limits, directly informing AI safety and governance. The survey introduces a verification hierarchy from formal verifiers (strongest) to intrinsic self-assessment (weakest), and observes that self-improvement strength tracks this hierarchy while failure modes like self-confirming loops and model collapse follow from its violations.
+
+rss · ArXiv CS.AI · Jul 9, 04:00
+
+**Background**: Recursive self-improvement (RSI) is a process where an AI system improves its own capabilities, potentially leading to an intelligence explosion. Bounded self-refinement refers to limited, convergent improvements within a fixed scope, while open-ended RSI aims for unbounded, compounding gains. The survey's taxonomy helps separate these concepts and assess their feasibility.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2607.07663">Recursive Self-Improvement in AI: From Bounded Self ...</a></li>
+<li><a href="https://en.m.wikipedia.org/wiki/Recursive_self-improvement">Recursive self-improvement - Wikipedia</a></li>
+<li><a href="https://spectrum.ieee.org/recursive-self-improvement">Recursive Self-Improvement Edges Closer In AI Labs - IEEE Spectrum</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI safety`, `#recursive self-improvement`, `#AI alignment`, `#AI research`, `#survey`
+
+---
+
+<a id="item-6"></a>
+## [AI Industry Restructuring 2026-2030: Memory Scarcity & Open Models](https://arxiv.org/abs/2607.07207) ⭐️ 9.0/10
+
+A quantitative scenario analysis forecasts how DRAM/HBM price surges, open-weight models like GLM-5.2, and inference efficiency gains will reshape the AI industry from 2026 to 2030, with incumbents maintaining a 3-4x cost advantage and training bifurcating into luxury ($18-38B per run) and mass tiers ($5M). This analysis provides critical strategic guidance for AI infrastructure planning, revealing that the entrant-incumbent cost gap never closes and that solvency depends on monetized bandwidth demand, premium stickiness, and vintage ownership, with only the 2027 vintage robust across pricing regimes. The study introduces a novel metric ($/PB for bandwidth-bound decode) and finds that a depreciation conveyor delivers newly amortized fleets to incumbents faster than hardware prices normalize, with the cost gap re-widening to 3-4x by 2029-30. It also critiques public token trackers for overstating monetizable demand and notes that all pre-Q2-2026 projections predate the shift from token maximization to minimization.
+
+rss · ArXiv CS.AI · Jul 9, 04:00
+
+**Background**: The AI industry faces a memory crisis due to surging DRAM/HBM prices, which have increased roughly 170% since 2025. Meanwhile, open-weight models like GLM-5.2 have reached frontier capability, and inference efficiency is improving rapidly through near-Shannon-limit KV-cache compression. Companies like Meta and xAI are entering compute resale, leveraging fleets bought before the memory repricing.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.trendforce.com/presscenter/news/20260602-13074.html">Tight DRAM Supply Gives Suppliers Greater Pricing Power in HBM ...</a></li>
+<li><a href="https://arxiv.org/abs/2604.15356">[2604.15356] Sequential KV Cache Compression via Probabilistic Language Tries: Beyond the Per-Vector Shannon Limit</a></li>
+<li><a href="https://uk.pcmag.com/ai/165970/meta-exploring-option-to-sell-spare-compute-capacity-to-generate-ai-revenue">Meta Exploring Option to Sell Spare Compute Capacity to Generate ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI industry`, `#inference economics`, `#open models`, `#memory scarcity`, `#infrastructure`
+
+---
+
+<a id="item-7"></a>
+## [LLMs Fail to Verify Numeric Validity in Multi-Source Synthesis](https://arxiv.org/abs/2606.05403) ⭐️ 9.0/10
+
+A new study reveals that LLMs can detect fabricated statistics in isolation but fail to recruit this capability during multi-source synthesis, treating invalid statistics (e.g., impossible confidence intervals) as equally influential as valid ones. This blind spot undermines the trustworthiness of LLMs as epistemic proxies, especially in domains like research, policy, and medicine where accurate source evaluation is critical. It highlights a fundamental gap between capability and deployment in AI systems. The study tested six models from four families (Anthropic Claude, Qwen, OLMo, OpenAI GPT-5.4) across three professional domains, using causal tracing, linear probes, and component-level attribution to identify a 'methodology-register gate' that governs source influence based on analytical register rather than numeric validity.
+
+rss · ArXiv CS.AI · Jul 9, 04:00
+
+**Background**: LLMs are increasingly used as 'epistemic proxies' that synthesize evidence from multiple sources to inform decisions. However, they may evaluate sources based on surface presentation (e.g., analytical language) rather than actual content validity. This study introduces the concept of 'epistemic alignment'—whether a model's deployed behavior matches its underlying capabilities—analogous to preference or safety alignment.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://autonomousintelligence.substack.com/p/the-epistemic-closure-machine-how">The Epistemic Closure Machine: How Frontier AI Systems ...</a></li>
+<li><a href="https://www.forethought.org/research/ai-impacts-on-epistemics-the-good-the-bad-and-the-ugly">AI and Epistemics: The Good, Bad and Ugly - forethought.org</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI safety`, `#LLM evaluation`, `#epistemology`, `#trustworthiness`, `#multi-source synthesis`
+
+---
+
+<a id="item-8"></a>
+## [EU Parliament Passes Chat Control 1.0 Despite Majority Opposition](https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/) ⭐️ 8.0/10
+
+On July 9, 2026, the European Parliament voted to extend Chat Control 1.0, allowing mass scanning of private messages on platforms like Gmail, Instagram, and Snapchat until April 3, 2028, despite 314 MEPs voting against and only 276 in favor. This decision sets a precedent for mass surveillance without a warrant, undermining digital privacy and encryption in the EU, and could embolden similar measures globally. The extension passed because a motion to reject required an absolute majority of 361 votes, which the 314 opposing votes did not reach, despite a simple majority of voting MEPs opposing the measure.
+
+hackernews · rapnie · Jul 9, 11:03 · [Discussion](https://news.ycombinator.com/item?id=48843923)
+
+**Background**: Chat Control, formally the Child Sexual Abuse Regulation (CSAR), was proposed in 2022 to combat child sexual abuse material (CSAM). It allows voluntary scanning of private messages by tech companies. The ePrivacy derogation enabling this was set to expire in April 2026, but the Parliament's vote extended it.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.techtimes.com/articles/320010/20260709/eu-parliament-passes-chat-control-default-314-meps-couldnt-block-scanning-law.htm">EU Parliament Passes Chat Control by Default: 314 MEPs Couldn ...</a></li>
+<li><a href="https://www.tech2geek.net/european-parliament-extends-chatcontrol-1-0-until-2028-despite-most-votes-opposing-it/">European Parliament Extends ChatControl 1.0 Until 2028 ...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters expressed outrage at the procedural trick, noting that the vote was held on the last day before summer break with many MEPs absent, and that the law passed despite a majority of voting members opposing it. Some called it a threat to democracy and the EU's legitimacy.
+
+**Tags**: `#privacy`, `#EU regulation`, `#surveillance`, `#encryption`, `#digital rights`
+
+---
+
+<a id="item-9"></a>
+## [Ello Builds Real-Time AI Tutor for Young Children](https://www.ello.com/blog/teaching-a-child-in-1000-ms) ⭐️ 8.0/10
+
+Ello has built a real-time AI tutor for children ages 4-9, using a custom harness with a streaming interpreter and an asynchronous planner to achieve conversation-speed teaching and safety checks. This architecture addresses the challenging technical problem of delivering effective, safe AI tutoring at conversation speed for young children, potentially raising the average level of education and literacy worldwide, especially in developing countries. The system uses a streaming interpreter to execute actions in real-time while an asynchronous planner reasons ahead to drive learning, with a safety system that checks every turn without interrupting the activity flow.
+
+hackernews · catalinvoss · Jul 9, 20:51 · [Discussion](https://news.ycombinator.com/item?id=48852199)
+
+**Background**: Traditional AI tutoring systems often rely on a standard tool-use loop that can introduce latency, making real-time interaction difficult. Ello's custom harness replaces this loop with a streaming interpreter and asynchronous planner to enable responsive, safe teaching. The tutor covers subjects like reading, math, and ESL for children aged 4-9.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://streaminterpreter.com/">StreamInterpreter — AI-Powered Live Translation</a></li>
+<li><a href="https://intelliplan.tech/">Free AI Study Planner for Students | IntelliPlan</a></li>
+<li><a href="https://open-harness.github.io/open-harness/docs/guides/agents/custom-agents">Custom Harnesses - open-harness.github.io</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments are mixed: some praise the potential to democratize education, especially in underserved regions, while others express skepticism about using AI with young children, calling it a 'worse use case.' There is also curiosity about the child's experience and how the system facilitates learning.
+
+**Tags**: `#AI/ML`, `#education`, `#real-time systems`, `#AI safety`, `#product review`
+
+---
+
+<a id="item-10"></a>
+## [Meta Releases Muse Spark 1.1 Agentic Coding Model](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/) ⭐️ 8.0/10
+
+Meta has released Muse Spark 1.1, an open-weight agentic coding model, along with a new API pricing model that charges $1.25 per million input tokens and $4.5 per million output tokens. This release marks Meta's first paid API for an agentic model, signaling a shift from purely open-weight releases to a commercial API strategy, and it narrows the performance gap with leading models from Anthropic and OpenAI. Muse Spark 1.1 is not an open-weight model; it is only available via API, which may disappoint users accustomed to Meta's Llama series. The model uses an OpenAI-compatible API and is currently in public preview.
+
+hackernews · ot · Jul 9, 14:10 · [Discussion](https://news.ycombinator.com/item?id=48846184)
+
+**Background**: Agentic coding models are AI systems that autonomously plan, write, test, and modify code with minimal human intervention. Meta's Llama series has been a popular open-weight alternative to proprietary models, but Muse Spark 1.1 represents a pivot toward a closed API model, competing directly with services like OpenAI's GPT and Anthropic's Claude.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.digitalapplied.com/blog/meta-muse-spark-1-1-agentic-model-api-2026">Meta Muse Spark 1.1: Meta's First Paid Agent Model</a></li>
+<li><a href="https://fourweekmba.com/ai-meta-muse-spark-1-1-meta-model-api-closed-pivot/">Meta Muse Spark 1.1 and the Meta Model API Signal a Closed-API Pivot That Rewrites the Open-Weights Playbook - FourWeekMBA</a></li>
+<li><a href="https://www.techzine.eu/news/applications/142794/meta-muse-spark-1-1-closes-the-gap-to-anthropic-and-openai/">Meta Muse Spark 1.1 closes the gap to Anthropic and OpenAI - Techzine Global</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments highlight concerns about benchmark validity, as the evaluation report capped resources at 6 CPU cores and 8GB RAM, which some argue disqualifies results. Others praise the competitive pricing and practical utility, with one user creating an LLM plugin for the model. There is debate over whether Meta should continue its 'spoiler' role by commoditizing coding models.
+
+**Tags**: `#AI/ML`, `#open-source model`, `#coding agent`, `#Meta`, `#AI industry`
+
+---
+
+<a id="item-11"></a>
+## [AI Agent Startup Lyzr Uses Own Agent to Raise $100M](https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/) ⭐️ 8.0/10
+
+Lyzr, an AI agent startup, used its own AI agent to successfully raise a $100 million funding round, demonstrating the product's real-world effectiveness. This is a novel real-world demonstration of an AI agent handling a high-stakes business process, validating the technology's potential for enterprise use and boosting confidence in AI agents. The agent managed the entire fundraising process, though specific details on how it executed the tasks have not been disclosed. Lyzr's platform emphasizes safe AI, responsible AI, and data privacy.
+
+rss · TechCrunch AI · Jul 9, 22:08
+
+**Background**: AI agents are software programs that can autonomously perform tasks typically requiring human intelligence. Lyzr builds such agents for enterprises, and using its own product to raise funds serves as a powerful proof of concept.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.lyzr.ai/">Lyzr | Take your AI agents to production, faster.</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI agent`, `#fundraising`, `#startup`, `#product validation`, `#AI industry`
+
+---
+
+<a id="item-12"></a>
+## [AI ROI Debate Returns with $3 Trillion Stakes](https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/) ⭐️ 8.0/10
+
+TechCrunch revisits the AI ROI debate, highlighting that the financial stakes have grown to $3 trillion and the consequences of getting it wrong are higher than ever. This debate is critical because trillions in investment hinge on whether AI delivers measurable returns, affecting corporate strategy, investor confidence, and the broader economy. The article notes that 56% of CEOs report zero ROI from AI, while only 12% profit significantly, according to a Forbes report. The $3 trillion figure likely represents cumulative global AI investment.
+
+rss · TechCrunch AI · Jul 9, 21:47
+
+**Background**: The AI ROI debate has been ongoing since the generative AI boom began in 2023. Many companies have invested heavily in AI infrastructure and tools, but translating that spending into bottom-line profits has proven difficult. Recent studies from Deloitte and MIT show that while expectations for returns are high, actual measurable gains remain elusive for most organizations.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.forbes.com/sites/guneyyildiz/2026/01/28/56-of-ceos-see-zero-roi-from-ai-heres-what-the-12-who-profit-do-differently/">AI ROI Measurement: New Metrics For 2026 Financial Returns</a></li>
+<li><a href="https://www.deloitte.com/nl/en/issues/generative-ai/ai-roi-the-paradox-of-rising-investment-and-elusive-returns.html">AI ROI: The paradox of rising investment and elusive returns - Deloitte</a></li>
+<li><a href="https://gfmag.com/features/ai-return-on-investment-elusive/">AI Return on Investment: Looking for Elusive Returns</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI industry`, `#AI ROI`, `#economics`, `#debate`
+
+---
+
+<a id="item-13"></a>
+## [NYT Accuses OpenAI of Hiding Evidence in Copyright Trial](https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/) ⭐️ 8.0/10
+
+The New York Times and other news publishers filed a motion for sanctions against OpenAI, alleging that the company hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs. This escalation in a high-profile lawsuit could set a precedent for how AI companies must disclose training data and handle copyrighted content, impacting AI regulation and copyright law. The publishers claim OpenAI failed to preserve and produce relevant evidence, including internal tools and datasets that could show whether ChatGPT reproduces copyrighted journalism verbatim.
+
+rss · TechCrunch AI · Jul 9, 19:05
+
+**Background**: The lawsuit, filed by The New York Times and other news organizations, alleges that OpenAI used copyrighted articles without permission to train ChatGPT. OpenAI has argued that its use of such data falls under 'fair use.' The motion for sanctions adds a new layer to the case, potentially forcing OpenAI to reveal more about its training data and processes.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/">New York Times says OpenAI hid evidence in ChatGPT copyright trial</a></li>
+<li><a href="https://www.aljazeera.com/economy/2026/7/9/nyt-led-group-asks-court-to-sanction-openai-in-us-copyright-dispute">NYT-led group asks court to sanction OpenAI in US copyright dispute</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI regulation`, `#copyright`, `#OpenAI`, `#legal`, `#AI ethics`
+
+---
+
+<a id="item-14"></a>
+## [Ollama raises $65M, reaches nearly 9M users](https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/) ⭐️ 8.0/10
+
+Ollama, a popular open-source AI developer tool for running models locally, raised $65 million in funding led by Benchmark Capital and has grown to nearly 9 million users. This funding round signals strong industry validation for local AI deployment tools, highlighting the growing demand for privacy-preserving, on-device AI solutions among developers and enterprises. Ollama has amassed 176,000 stars and nearly 17,000 forks on GitHub, reflecting its widespread adoption in the developer community.
+
+rss · TechCrunch AI · Jul 9, 13:00
+
+**Background**: Ollama is an open-source tool that simplifies running large language models (LLMs) locally on a user's own hardware, eliminating the need for cloud API calls. It supports a wide range of models like Llama, Mistral, and Qwen, and integrates with popular IDEs and code editors. This approach appeals to developers who prioritize data privacy, low latency, and offline capabilities.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://ollama.com/">Ollama</a></li>
+<li><a href="https://github.com/ollama/ollama">Ollama - GitHub</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI/ML`, `#open-source`, `#funding`, `#developer-tools`, `#Ollama`
+
+---
+
+<a id="item-15"></a>
+## [AgentLens: Trajectory-Level Evaluation for Coding Agents](https://arxiv.org/abs/2607.06624) ⭐️ 8.0/10
+
+AgentLens is a new benchmark that evaluates coding agents on their full interaction trajectory using formal verification and LLM-written reviews, rather than just a binary pass/fail. It is released as open source on GitHub. This benchmark addresses a key limitation in current agent evaluation by capturing nuanced behaviors like instruction following, tool use, and error recovery. It enables detailed diagnosis and regression testing, which is crucial for improving AI coding tools and agent development. AgentLens pairs formal verification (where an objective check exists) with LLM-written trajectory reviews and side-by-side comparisons, producing readable explanations for each score. The benchmark is designed for nightly evaluation pipelines to catch product regressions.
+
+rss · ArXiv CS.AI · Jul 9, 04:00
+
+**Background**: Most current code-agent benchmarks reduce a run to a single pass/fail bit, ignoring the full trajectory of agent behavior. Formal verification uses mathematical methods to prove correctness, while LLM-written reviews provide qualitative assessment. AgentLens combines both to offer a more holistic evaluation.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/amitpaz1/agentlens">AgentLens - GitHub</a></li>
+<li><a href="https://aiweekly.co/alerts/agentlens-scores-coding-agent-trajectories-not-just-passfail">AgentLens Scores Coding-Agent Trajectories, Not Just Pass/Fail</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI coding tools`, `#LLM agents`, `#benchmark`, `#code generation`, `#evaluation`
+
+---
+
+<a id="item-16"></a>
+## [In-Context Search Theory: When Reflection Boosts LLM Reasoning](https://arxiv.org/abs/2607.06720) ⭐️ 8.0/10
+
+A new arXiv paper provides a theoretical framework for in-context search in LLMs, modeling it as approximate Bayesian inference and proving that reliable reflection can yield exponential improvements in reasoning success probability. This work offers a rigorous understanding of when self-reflection helps LLMs reason better, which is crucial for designing more efficient reasoning algorithms and reducing wasteful iterative sampling. The paper shows that when reflections reliably localize early mistakes, in-context search achieves exponential improvement over the base model using only a polynomial number of sequential attempts; otherwise, it offers no asymptotic benefit over parallel sampling.
+
+rss · ArXiv CS.AI · Jul 9, 04:00
+
+**Background**: In-context search refers to LLMs iteratively generating, critiquing, and revising solution attempts during inference. This paper analyzes the sampling complexity—the number of attempts needed for high success probability—and connects it to the quality of self-reflection, which acts as a value function guiding the search.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://artificialintelligenceherald.com/posts/in-context-search-theory-llm-self-reflection-2026">In-Context Search Theory: When Self-Reflection Helps LLMs - AI Herald</a></li>
+<li><a href="https://arxiv.org/abs/2604.12013">Sample Complexity of Autoregressive Reasoning: Chain-of-Thought ...</a></li>
+<li><a href="https://x.com/SciFi/status/2075165775061455311">When Does In-Context Search Help? A Sampling-Complexity ...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The paper has been discussed on social media, with researchers noting its connection to Monte Carlo Tree Search and emphasizing that reflection quality, not iteration count, determines improvement. Some commenters highlight the practical implications for reducing inference costs.
+
+**Tags**: `#LLM`, `#reasoning`, `#in-context learning`, `#theory`, `#sampling complexity`
+
+---
+
+<a id="item-17"></a>
+## [Cost-Effective Agent Harnesses for ARC-AGI-1 Reasoning](https://arxiv.org/abs/2607.06764) ⭐️ 8.0/10
+
+Researchers introduced the Explorer-Definer Pipeline and Reflective Orchestrator, two agent harnesses that use DeepSeek V3.2 in non-thinking mode without fine-tuning, achieving 57.50% and 67.25% pass@2 on ARC-AGI-1 at $0.25 and $0.62 per task respectively. This work demonstrates that open-weight models with clever architectural decomposition can achieve competitive abstract reasoning performance without expensive fine-tuning or heavy test-time compute, offering a cost-effective path for AI reasoning research. The pipeline separates pattern discovery from program synthesis, and the orchestrator adds autonomous re-exploration when hypotheses fail. Ablation shows the 'think' tool contributes 5.75 pp to pass@2, and unbiased analysis reveals the pipeline is generation-bound rather than selection-bound.
+
+rss · ArXiv CS.AI · Jul 9, 04:00
+
+**Background**: ARC-AGI-1 is a benchmark designed to measure abstract reasoning and fluid intelligence, where tasks require identifying patterns in grid-based input-output examples. Prior approaches either used heavy compute over frontier models or benchmark-specific fine-tuning; this work explores a third regime using open-weight models with strict budget and no fine-tuning.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2607.06764">Cost-Effective Agent Harnesses for Abstract Reasoning and ... - arXiv</a></li>
+<li><a href="https://arcprize.org/arc-agi/1">ARC-AGI-1</a></li>
+<li><a href="https://arcprize.org/leaderboard">Leaderboard - ARC Prize</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI/ML`, `#agent architectures`, `#abstract reasoning`, `#ARC-AGI`, `#open-weight models`
+
+---
+
+<a id="item-18"></a>
+## [Orchestration Design Cuts Token Costs 40% in Enterprise AI](https://arxiv.org/abs/2607.06906) ⭐️ 8.0/10
+
+A controlled study on arXiv shows that optimizing the orchestration harness reduces token usage, cost, and latency by ~40% in enterprise agentic AI systems, countering the trend of 'token maxing'. This finding challenges the prevailing 'token maxing' approach and demonstrates that orchestration design, not just model choice, is a critical lever for cost efficiency in production AI systems. The study used 22 locked evaluation tasks and six foundation models, swapping only the orchestration layer: a conventional production loop vs. the Writer Agent Harness, achieving 41% cost reduction ($0.21→$0.12), 44% latency reduction, and 38% token reduction with quality parity.
+
+rss · ArXiv CS.AI · Jul 9, 04:00
+
+**Background**: Agentic AI systems combine a foundation model with a 'harness' (orchestration layer) that manages context, tools, and task sequencing. 'Token maxing' refers to the practice of using ever more tokens to improve capability, often without proportional value gain. This study isolates the harness effect to show that better orchestration can dramatically improve efficiency.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.langchain.com/blog/the-anatomy-of-an-agent-harness">The Anatomy of an Agent Harness - LangChain</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Token_maxxing">Token maxxing - Wikipedia</a></li>
+<li><a href="https://www.lopezresearch.com/harness-engineering-orchestration-and-compound-agents-the-enterprise-ai-vocabulary-you-need-to-know/">Harness Engineering, Orchestration, and Compound Agents: The Enterprise ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#agentic AI`, `#orchestration`, `#token economics`, `#enterprise AI`, `#LLM systems`
+
+---
+
+<a id="item-19"></a>
+## [Tencent Hy3: Compact AI Model Challenges DeepSeek V4 Flash](https://hy.tencent.com/research/hy3) ⭐️ 7.0/10
+
+Tencent has released Hy3, a 295B-parameter Mixture-of-Experts (MoE) model with only 21B active parameters, now available on OpenRouter with a free tier until July 21, 2026. Hy3's small active parameter count and competitive performance make it a strong candidate for local deployment, potentially challenging DeepSeek V4 Flash in the efficient AI model market. Hy3 uses a top-8 out of 192 experts architecture, with 3.8B MTP layer parameters, and is comparable in size to DeepSeek V4 Flash (284B total, 13B active) but reportedly matches or exceeds V4 Pro on some benchmarks.
+
+hackernews · andai · Jul 9, 15:27 · [Discussion](https://news.ycombinator.com/item?id=48847552)
+
+**Background**: Mixture-of-Experts (MoE) models activate only a subset of parameters per forward pass, enabling large total capacity with lower computational cost. Tencent's Hy3 and DeepSeek's V4 Flash are both MoE models designed for efficient inference, with Hy3 being slightly larger in total parameters but activating more per token.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://hy.tencent.com/research/hy3">Introducing Hy3 - Tencent Hy</a></li>
+<li><a href="https://huggingface.co/tencent/Hy3">tencent/Hy3 - Hugging Face</a></li>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek-ai/DeepSeek-V4-Flash · Hugging Face</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments note Hy3's surprising capability given its small size, with some users questioning its pricing advantage over DeepSeek V4 Flash. Others are curious about its performance under heavy quantization and local deployment feasibility on systems with ~96GB RAM.
+
+**Tags**: `#AI/ML`, `#open-source model`, `#model release`, `#LLM`, `#Tencent`
+
+---
+
+<a id="item-20"></a>
+## [Mitchell Hashimoto on Building Ghostty with Zig](https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/) ⭐️ 7.0/10
+
+Mitchell Hashimoto, creator of Ghostty, gave an in-depth interview discussing his decision to build the terminal emulator using the Zig programming language, covering language trade-offs, cross-platform challenges, and the philosophy of forking. This interview provides rare insight into the practical considerations behind choosing Zig over alternatives like Rust for a performance-critical, cross-platform application, influencing developers evaluating system programming languages. Hashimoto cited dissatisfaction with Rust's culture and tooling as factors, while praising Zig's simplicity and C interoperability. He also discussed the maintenance burden of forking and the importance of cross-platform support in Ghostty.
+
+hackernews · veqq · Jul 9, 17:17 · [Discussion](https://news.ycombinator.com/item?id=48849292)
+
+**Background**: Ghostty is a fast, feature-rich, cross-platform terminal emulator that uses platform-native UI and GPU acceleration. Zig is a general-purpose systems programming language designed as an improvement to C, emphasizing simplicity and control over memory management.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://ghostty.org/">Ghostty</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Zig_(programming_language)">Zig (programming language)</a></li>
+<li><a href="https://ziglang.org/">Home Zig Programming Language</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Comments on the interview show mixed reactions: some appreciate Hashimoto's pragmatic approach and deep thinking, while others disagree with his critique of Rust culture, noting that Zig also has its own shortcomings. A comparison with Bun's transition from Zig to Rust sparked further debate on language choice.
+
+**Tags**: `#Zig`, `#Ghostty`, `#programming languages`, `#software engineering`, `#terminal emulator`
+
+---
+
+<a id="item-21"></a>
+## [Undergrad First Author Achieves 7.92x Speedup with Parallel Draft Speculative Decoding](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902587&idx=3&sn=879066ecce663ab9daba5d73fe2dc27b) ⭐️ 7.0/10
+
+An undergraduate student as first author proposed a parallel draft method for speculative decoding, achieving a 7.92x speedup in LLM inference. The work has been cited by DeepSeek and Jieyue Xingchen. This breakthrough significantly improves the efficiency of LLM inference, potentially reducing latency and cost for large-scale deployments. The citations from major AI labs underscore its practical impact. The method, named PARD (Parallel Draft), enables a single draft model to work across multiple target models without retraining. It addresses causal consistency within blocks to maintain output quality.
+
+rss · 量子位 · Jul 9, 04:17
+
+**Background**: Speculative decoding is an inference optimization technique where a small draft model proposes candidate tokens and a large target model verifies them in parallel, achieving 2-3x speedups. Traditional methods use sequential drafting, but parallel drafting can further accelerate by generating multiple tokens simultaneously.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Speculative_decoding">Speculative decoding</a></li>
+<li><a href="https://liner.com/review/pard-accelerating-llm-inference-with-lowcost-parallel-draft-model-adaptation">PARD: Accelerating LLM Inference with Low‑Cost PARallel Draft...</a></li>
+<li><a href="https://pytorch.org/blog/hitchhikers-guide-speculative-decoding/">A Hitchhiker's Guide to Speculative Decoding - PyTorch</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#speculative decoding`, `#LLM inference`, `#AI research`, `#undergraduate research`
+
+---
+
+<a id="item-22"></a>
+## [OpenAI Confirms GPT-5.6 as Preferred Model for Microsoft Copilot 365](https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/) ⭐️ 7.0/10
+
+OpenAI announced that its newly released GPT-5.6 family of models will remain the preferred AI model powering Microsoft Copilot 365, amid ongoing speculation about a potential breakup between the two companies. This reaffirms the deep integration between OpenAI and Microsoft, signaling that their partnership remains strong despite rumors. It also ensures that millions of Microsoft 365 users will continue to have access to OpenAI's most advanced models for productivity tasks. GPT-5.6 was publicly released on July 9, 2026, and comes in three versions: Luna, Terra, and Sol, with Sol being the most capable. The model was initially previewed on June 26, 2026, and features enhanced capabilities in coding, science, and cybersecurity.
+
+rss · TechCrunch AI · Jul 10, 00:16
+
+**Background**: Microsoft Copilot is an AI assistant integrated into Microsoft 365 apps like Word, Excel, and PowerPoint, helping users generate and edit content. OpenAI develops the GPT series of large language models, which have been the backbone of Copilot since its launch. Recent rumors suggested Microsoft might reduce its reliance on OpenAI by developing its own models, but this announcement indicates continuity.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/GPT-5.6">GPT-5.6</a></li>
+<li><a href="https://openai.com/index/previewing-gpt-5-6-sol/">Previewing GPT-5.6 Sol: a next-generation model | OpenAI</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI industry`, `#OpenAI`, `#Microsoft`, `#Copilot`, `#LLM`
+
+---
+
+<a id="item-23"></a>
+## [OpenAI's No. 2 Executive Fidji Simo Steps Down](https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/) ⭐️ 7.0/10
+
+Fidji Simo, OpenAI's second-highest-ranking executive, is stepping down from her full-time role after an extended medical leave, creating a leadership gap as the company prepares for a potential IPO and competes with Anthropic in the enterprise market. This departure weakens OpenAI's executive bench at a critical juncture, potentially impacting its IPO timeline and ability to catch up with Anthropic in enterprise AI, where Anthropic has recently launched dedicated enterprise plans and formed a new AI services company with major investors. Simo's departure follows an extended medical leave, and the company is now without its No. 2 leader as it eyes a possible IPO and faces intense competition from Anthropic, which has been aggressively expanding its enterprise offerings through partnerships with AWS, Google Cloud, and Microsoft Azure.
+
+rss · TechCrunch AI · Jul 9, 23:38
+
+**Background**: OpenAI is the creator of ChatGPT and a leading AI research organization. It is reportedly preparing for an initial public offering (IPO) in 2026, which would be one of the most anticipated tech IPOs since Coinbase. Meanwhile, Anthropic, a rival AI company, has been gaining ground in the enterprise market with its Claude model and recently announced a new enterprise AI services company backed by Blackstone and other investors.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.zacks.com/featured-articles/781/openai-ipo">OpenAI IPO 2026 Guide: Date, Expected Valuation, and How to ...</a></li>
+<li><a href="https://www.anthropic.com/news/enterprise-ai-services-company">Building a new enterprise AI services company with Blackstone ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#OpenAI`, `#leadership`, `#AI industry`, `#IPO`, `#enterprise AI`
+
+---
+
+<a id="item-24"></a>
+## [IMGNet: Face Verification via Sign Pattern Matching](https://www.reddit.com/r/MachineLearning/comments/1urxvxh/i_built_imgnet_a_face_verification_model_that/) ⭐️ 7.0/10
+
+IMGNet introduces a face verification model that replaces cosine similarity with sliding window sign pattern matching, achieving 96.27% on LFW with a 10.58 MB model trained on CASIA-WebFace. It also proposes IMG Sign Score, a novel loss function defined purely over sign pattern agreement. This work challenges the default use of cosine similarity in face verification, showing that sign pattern matching can achieve competitive results with a much smaller model. It opens up new possibilities for efficient and interpretable face verification systems. The model uses a SW Block that computes pixel differences at prime window sizes {3,5,7} and an IMG Sign MSE Loss that stabilizes training (variance ±0.40% vs ±2.25%). When applied to ArcFace embeddings without retraining, IMG Sign Score achieves 99.58% on LFW, only 0.24% below ArcFace+Cosine.
+
+reddit · r/MachineLearning · /u/img-_- · Jul 9, 18:00
+
+**Background**: Face verification determines whether two face images belong to the same person. Traditional methods compare embedding vectors using cosine similarity, which measures global angular direction. IMGNet instead looks for locally consistent sign patterns across overlapping windows of the embedding, inspired by linguistic analogies where different surface forms share identical meaning.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/imamgh11/imgnet">GitHub - imamgh11/imgnet: NEW ERA OF AI · GitHub</a></li>
+<li><a href="https://regulaforensics.com/blog/face-recognition-vs-face-verification/">Face Recognition vs. Face Verification for ID Verification</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#face verification`, `#computer vision`, `#deep learning`, `#embedding similarity`
+
+---
+
+<a id="item-25"></a>
+## [No Leap Second at End of 2026](https://datacenter.iers.org/data/latestVersion/bulletinC.txt) ⭐️ 6.0/10
+
+The International Earth Rotation and Reference Systems Service (IERS) announced that no leap second will be added at the end of December 2026, maintaining the current UTC-TAI offset of -37 seconds. This decision affects global timekeeping systems, especially digital infrastructure relying on precise timestamps, as leap seconds can cause disruptions in UNIX timestamps and network protocols. All 27 leap seconds added since 1972 have been positive, and the next possible insertion window is June 30 or December 31, 2027. The IERS monitors Earth's rotation to decide about six months in advance.
+
+hackernews · ChrisArchitect · Jul 9, 14:16 · [Discussion](https://news.ycombinator.com/item?id=48846281)
+
+**Background**: Leap seconds are one-second adjustments to Coordinated Universal Time (UTC) to keep it aligned with astronomical time (UT1), which varies due to irregularities in Earth's rotation. They are added irregularly and unpredictably, causing challenges for computer systems that assume a constant 86400 seconds per day.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Leap_second">Leap second</a></li>
+<li><a href="https://en.wikipedia.org/wiki/International_Earth_Rotation_Service">International Earth Rotation Service</a></li>
+<li><a href="https://stackoverflow.com/questions/16539436/unix-time-and-leap-seconds">shell - Unix time and leap seconds - Stack Overflow</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters expressed curiosity about the unpredictability of Earth's rotation, with some noting geological and weather factors. Others discussed the impact on UNIX timestamps and the constant offsets between UTC, TAI, and GPS time. A few joked about potential service crashes.
+
+**Tags**: `#timekeeping`, `#leap second`, `#UTC`, `#systems`, `#engineering`
+
+---
+
+<a id="item-26"></a>
+## [Why ML Conferences Outshine Journals](https://www.reddit.com/r/MachineLearning/comments/1urqqk6/journals_vs_conferences_ml_research_r/) ⭐️ 6.0/10
+
+A Reddit discussion highlights that ML conferences like ICML and NeurIPS have become more prestigious than traditional journals, driven by faster acceptance cycles and the AI boom. This shift reflects a fundamental change in how ML research is disseminated and valued, affecting researchers' career incentives and the pace of innovation in the field. Conferences offer faster review times (typically 3-6 months) compared to journals (often 1-2 years), and the AI boom has increased demand for rapid dissemination of results.
+
+reddit · r/MachineLearning · /u/hg_wallstreetbets · Jul 9, 13:44
+
+**Background**: In many scientific fields, journals are the primary publication venue, but in ML, top conferences (e.g., NeurIPS, ICML, ICLR) have become the dominant outlets. This culture shift began around the 2010s as the field grew rapidly and researchers prioritized speed and community feedback.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.reddit.com/r/MachineLearning/comments/1rc3nez/d_is_conference_prestige_slowing_reducing/">[D] Is Conference prestige slowing reducing? : r/MachineLearning</a></li>
+<li><a href="https://algoverseairesearch.org/blog/icml-iclr-aaai-student-guide">Beyond NeurIPS: A Student's Guide to ICML, ICLR, AAAI, and Other ...</a></li>
+<li><a href="https://www.quora.com/How-prestigious-are-best-paper-awards-at-NIPS-and-ICML">How prestigious are best paper awards at NIPS and ICML? - Quora</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The discussion echoes common sentiments: conferences are faster and more dynamic, but some worry about declining quality due to page limits and lack of thorough review. Others note that journal papers still hold value for comprehensive work.
+
+**Tags**: `#ML research`, `#conferences`, `#journals`, `#academic culture`
+
+---
